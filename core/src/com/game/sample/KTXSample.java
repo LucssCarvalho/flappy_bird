@@ -155,6 +155,7 @@ public class KTXSample extends ApplicationAdapter {
         batch.setProjectionMatrix(camera.combined);
 
         batch.begin();
+
         batch.draw(background, 0, 0, maxSizeWidth, maxSizeHeight);
         batch.draw(pipeTop, positionMovePipe, maxSizeHeight / 2 + spaceBetweenPipes / 2 + randomSpaceBetweenPipes);
         batch.draw(pipeBottom, positionMovePipe, maxSizeHeight / 2 - pipeBottom.getHeight() - spaceBetweenPipes / 2 + randomSpaceBetweenPipes);

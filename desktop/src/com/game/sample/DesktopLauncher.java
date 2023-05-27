@@ -9,7 +9,7 @@ public class DesktopLauncher {
 	public static void main (String[] arg) {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);
-		config.setTitle("KTXSample");
-		new Lwjgl3Application(new KTXSample(), config);
+		config.setTitle("Main");
+		new Lwjgl3Application(new Main(), config);
 	}
 }
